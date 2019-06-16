@@ -5,6 +5,7 @@ class hello
 		programmer-name-sushma
 		program id- 1
 	environment division.
+	file-section.
 }
 
 
