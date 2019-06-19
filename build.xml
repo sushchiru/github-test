@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<project name='file-system-tasks' default='copy'>
+	<target name='clean'>
+		<delete dir='build'/>
+	</target>
+	<target name='create a dir' depends='clean'>
+		<mkdir dir="build/classes"/>
+				
+	</target>
+	<target name='copy' depends='create a dir'>
+		<copy file='src/file1.txt' todir='dest'/>
+	</target> 
+</project>
